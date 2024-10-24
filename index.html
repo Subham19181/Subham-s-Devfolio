@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Subham's Developer Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+      }
 
-        body {
-            background-color: #192231;
-            color: white;
-            font-family: "Poppins", sans-serif;
-        }
+      body {
+        background-color: #192231;
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
 
-        /* nav {
+      /* nav {
             display: flex;
             justify-content: space-around;
             align-items: center;
@@ -28,37 +30,36 @@
             background-color: #494E6B;
         } */
 
-        nav ul {
-            display: flex;
-            justify-content: center;
-        }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
 
-        nav ul li {
-            list-style: none;
-            margin: 0 23px;
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
 
-        }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
 
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-        }
+      nav ul li a:hover {
+        color: #98878f;
+        font-size: 1.02rem;
+      }
 
-        nav ul li a:hover {
-            color: #98878f;
-            font-size: 1.02rem;
-        }
+      .left {
+        font-size: 1.9rem;
+        margin-left: 65px;
+      }
 
-        .left {
-            font-size: 1.9rem;
-            margin-left: 65px;
-        }
+      .right {
+        margin-left: 10%;
+      }
 
-        .right {
-            margin-left: 10%;
-        }
-
-        /* .firstsection {
+      /* .firstsection {
             display: flex;
             justify-content: space-around;
             align-items: center;
@@ -69,9 +70,10 @@
             width: 40%;
         } */
 
-        #sec-left-div {}
+      #sec-left-div {
+      }
 
-        /* .left-section {
+      /* .left-section {
             font-size: 3rem;
             margin-left: 70px;
         }
@@ -82,41 +84,183 @@
             width: 80%;
         } */
 
-        /* .red {
+      /* .red {
             color: #985E6D;
         } */
 
-        #element {
-            color: #985E6D;
-        }
+      #element {
+        color: #985e6d;
+      }
     </style>
 
-<script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
 
-</head>
-
-<body>
-    <header class="text-gray-600 body-font">
-        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-            </svg>
-            <span class="ml-3 text-xl">Tailblocks</span>
-          </a>
-          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a class="mr-5 hover:text-gray-900">First Link</a>
-            <a class="mr-5 hover:text-gray-900">Second Link</a>
-            <a class="mr-5 hover:text-gray-900">Third Link</a>
-            <a class="mr-5 hover:text-gray-900">Fourth Link</a>
-          </nav>
-          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
+  <body>
+    <!-- i will start working  -->
+    <div
+      class="px-4 py-6 mx-auto lg:py-8 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
+    >
+      <div
+        class="relative flex items-center justify-between lg:justify-center lg:space-x-16"
+      >
+        <ul class="flex items-center hidden space-x-8 lg:flex text-white">
+          <li>
+            <a
+              href="/"
+              aria-label="Our product"
+              title="Our product"
+              class="font-medium tracking-wide transition-colors duration-200 hover:text-deep-purple-accent-400"
+              >Product</a
+            >
+          </li>
+          <li>
+            <a
+              href="/"
+              aria-label="Our product"
+              title="Our product"
+              class="font-medium tracking-wide transition-colors duration-200 hover:text-deep-purple-accent-400"
+              >Features</a
+            >
+          </li>
+          <li>
+            <a
+              href="/"
+              aria-label="Product pricing"
+              title="Product pricing"
+              class="font-medium tracking-wide transition-colors duration-200 hover:text-deep-purple-accent-400"
+              >Pricing</a
+            >
+          </li>
+        </ul>
+        <a
+          href="/"
+          aria-label="Company"
+          title="Company"
+          class="inline-flex items-center text-white"
+        >
+          <svg
+            class="w-8 text-deep-purple-accent-400"
+            viewBox="0 0 24 24"
+            stroke-linejoin="round"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-miterlimit="10"
+            stroke="currentColor"
+            fill="none"
+          >
+            <rect x="3" y="1" width="7" height="12"></rect>
+            <rect x="3" y="17" width="7" height="6"></rect>
+            <rect x="14" y="1" width="7" height="6"></rect>
+            <rect x="14" y="11" width="7" height="12"></rect>
+          </svg>
+          <span
+            class="ml-2 text-xl font-bold tracking-wide text-white uppercase"
+            >Subham</span
+          >
+        </a>
+        <ul class="flex items-center hidden space-x-8 lg:flex">
+          <li>
+            <a
+              href="/"
+              aria-label="About us"
+              title="About us"
+              class="font-medium tracking-wide transition-colors duration-200 hover:text-deep-purple-accent-400"
+              >About us</a
+            >
+          </li>
+          <li>
+            <a
+              href="/"
+              aria-label="Sign in"
+              title="Sign in"
+              class="font-medium tracking-wide transition-colors duration-200 hover:text-deep-purple-accent-400"
+              >Sign in</a
+            >
+          </li>
+          <li>
+            <a
+              href="/"
+              aria-label="Sign up"
+              title="Sign up"
+              class="font-medium tracking-wide transition-colors duration-200 hover:text-deep-purple-accent-400"
+              >Sign up</a
+            >
+          </li>
+        </ul>
+        <!-- Mobile menu -->
+        <div class="lg:hidden">
+          <button
+            aria-label="Open Menu"
+            title="Open Menu"
+            class="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
+          >
+            <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="M23,13H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,13,23,13z"
+              ></path>
+              <path
+                fill="currentColor"
+                d="M23,6H1C0.4,6,0,5.6,0,5s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,6,23,6z"
+              ></path>
+              <path
+                fill="currentColor"
+                d="M23,20H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,20,23,20z"
+              ></path>
             </svg>
           </button>
+          <!-- Mobile menu dropdown 
+            <div class="absolute top-0 left-0 w-full">
+              <div class="p-5 bg-white border rounded shadow-sm">
+                <div class="flex items-center justify-between mb-4">
+                  <div>
+                    <a href="/" aria-label="Company" title="Company" class="inline-flex items-center">
+                      <svg class="w-8 text-deep-purple-accent-400" viewBox="0 0 24 24" stroke-linejoin="round" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke="currentColor" fill="none">
+                        <rect x="3" y="1" width="7" height="12"></rect>
+                        <rect x="3" y="17" width="7" height="6"></rect>
+                        <rect x="14" y="1" width="7" height="6"></rect>
+                        <rect x="14" y="11" width="7" height="12"></rect>
+                      </svg>
+                      <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">Company</span>
+                    </a>
+                  </div>
+                  <div>
+                    <button aria-label="Close Menu" title="Close Menu" class="p-2 -mt-2 -mr-2 transition duration-200 rounded hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
+                      <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
+                        <path
+                          fill="currentColor"
+                          d="M19.7,4.3c-0.4-0.4-1-0.4-1.4,0L12,10.6L5.7,4.3c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l6.3,6.3l-6.3,6.3 c-0.4,0.4-0.4,1,0,1.4C4.5,19.9,4.7,20,5,20s0.5-0.1,0.7-0.3l6.3-6.3l6.3,6.3c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3 c0.4-0.4,0.4-1,0-1.4L13.4,12l6.3-6.3C20.1,5.3,20.1,4.7,19.7,4.3z"
+                        ></path>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <nav>
+                  <ul class="space-y-4">
+                    <li><a href="/" aria-label="Our product" title="Our product" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Product</a></li>
+                    <li><a href="/" aria-label="Our product" title="Our product" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Features</a></li>
+                    <li><a href="/" aria-label="Product pricing" title="Product pricing" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Pricing</a></li>
+                    <li><a href="/" aria-label="About us" title="About us" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">About us</a></li>
+                    <li><a href="/" aria-label="Sign in" title="Sign in" class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400">Sign in</a></li>
+                    <li>
+                      <a
+                        href="/"
+                        class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                        aria-label="Sign up"
+                        title="Sign up"
+                      >
+                        Sign up
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            -->
         </div>
-      </header>
+      </div>
+    </div>
     <!-- <header>
         <nav>
             <div class="left">Subham's DevFolio</div>
@@ -133,30 +277,211 @@
     </header> -->
 
     <main>
-        <section class="flex">
-            <div class="left-section">
-                Hi, My name is <span class="red">Subham</span>
-                <div>And I am a passionate</div> 
-                <span id="element"></span>
-            </div>
-            <div class="h-9 w-9">
-                <img src="ai.png" alt="">
-            </div>
-        </section>
+      <section
+        class="flex flex-col md:flex-row justify-center items-center h-screen gap-10"
+      >
+        <div
+          class="text-4xl md:text-6xl lg:text-7xl p-4 md:p-10 text-center md:text-left"
+        >
+          Hi, My name is <span class="text-red-500">Subham</span>
+          <div>And I am a passionate</div>
+          <span id="element"></span>
+        </div>
+        <div
+          class="h-[200px] w-[200px] md:h-[300px] md:w-[300px] lg:h-[350px] lg:w-[350px]"
+        >
+          <img src="ai.png" alt="" class="w-full h-full object-cover" />
+        </div>
+      </section>
     </main>
 
-    
+    <div
+      class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
+    >
+      <div
+        class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12"
+      >
+        <div>
+          <p
+            class="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400"
+          >
+            Brand new
+          </p>
+        </div>
+        <h2
+          class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto"
+        >
+          <span class="relative inline-block">
+            <svg
+              viewBox="0 0 52 24"
+              fill="currentColor"
+              class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
+            >
+              <defs>
+                <pattern
+                  id="ea469ae8-e6ec-4aca-8875-fc402da4d16e"
+                  x="0"
+                  y="0"
+                  width=".135"
+                  height=".30"
+                >
+                  <circle cx="1" cy="1" r=".7"></circle>
+                </pattern>
+              </defs>
+              <rect
+                fill="url(#ea469ae8-e6ec-4aca-8875-fc402da4d16e)"
+                width="52"
+                height="24"
+              ></rect>
+            </svg>
+            <span class="relative">The</span>
+          </span>
+          quick, brown fox jumps over a lazy dog
+        </h2>
+        <p class="text-base text-gray-700 md:text-lg">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque rem aperiam, eaque ipsa quae.
+        </p>
+      </div>
+      <div class="grid gap-8 row-gap-10 lg:grid-cols-2">
+        <div class="max-w-md sm:mx-auto sm:text-center">
+          <div
+            class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24"
+          >
+            <svg
+              class="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16"
+              stroke="currentColor"
+              viewBox="0 0 52 52"
+            >
+              <polygon
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                fill="none"
+                points="29 13 14 29 25 29 23 39 38 23 27 23"
+              ></polygon>
+            </svg>
+          </div>
+          <h6 class="mb-3 text-xl font-bold leading-5">The deep ocean</h6>
+          <p class="mb-3 text-sm text-gray-900">
+            A flower in my garden, a mystery in my panties. Heart attack never
+            stopped old Big Bear. I didn't even know we were calling him Big
+            Bear. We never had the chance to.
+          </p>
+          <a
+            href="/"
+            aria-label=""
+            class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+            >Learn more</a
+          >
+        </div>
+        <div class="max-w-md sm:mx-auto sm:text-center">
+          <div
+            class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24"
+          >
+            <svg
+              class="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16"
+              stroke="currentColor"
+              viewBox="0 0 52 52"
+            >
+              <polygon
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                fill="none"
+                points="29 13 14 29 25 29 23 39 38 23 27 23"
+              ></polygon>
+            </svg>
+          </div>
+          <h6 class="mb-3 text-xl font-bold leading-5">When has justice</h6>
+          <p class="mb-3 text-sm text-gray-900">
+            Rough pomfret lemon shark plownose chimaera southern sandfish
+            kokanee northern sea robin Antarctic cod. Yellow-and-black triplefin
+            gulper South American Lungfish mahi-mahi, butterflyfish glass
+            catfish soapfish ling gray mullet!
+          </p>
+          <a
+            href="/"
+            aria-label=""
+            class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+            >Learn more</a
+          >
+        </div>
+        <div class="max-w-md sm:mx-auto sm:text-center">
+          <div
+            class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24"
+          >
+            <svg
+              class="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16"
+              stroke="currentColor"
+              viewBox="0 0 52 52"
+            >
+              <polygon
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                fill="none"
+                points="29 13 14 29 25 29 23 39 38 23 27 23"
+              ></polygon>
+            </svg>
+          </div>
+          <h6 class="mb-3 text-xl font-bold leading-5">Organically grow</h6>
+          <p class="mb-3 text-sm text-gray-900">
+            A slice of heaven. O for awesome, this chocka full cuzzie is as
+            rip-off as a cracker. Meanwhile, in behind the bicycle shed,
+            Hercules Morse, as big as a horse and Mrs Falani were up to no good
+            with a bunch of crook pikelets.
+          </p>
+          <a
+            href="/"
+            aria-label=""
+            class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+            >Learn more</a
+          >
+        </div>
+        <div class="max-w-md sm:mx-auto sm:text-center">
+          <div
+            class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24"
+          >
+            <svg
+              class="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16"
+              stroke="currentColor"
+              viewBox="0 0 52 52"
+            >
+              <polygon
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                fill="none"
+                points="29 13 14 29 25 29 23 39 38 23 27 23"
+              ></polygon>
+            </svg>
+          </div>
+          <h6 class="mb-3 text-xl font-bold leading-5">A slice of heaven</h6>
+          <p class="mb-3 text-sm text-gray-900">
+            Disrupt inspire and think tank, social entrepreneur but preliminary
+            thinking think tank compelling. Inspiring, invest synergy capacity
+            building, white paper; silo, unprecedented challenge B-corp
+            problem-solvers.
+          </p>
+          <a
+            href="/"
+            aria-label=""
+            class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+            >Learn more</a
+          >
+        </div>
+      </div>
+    </div>
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
     <script>
-        var typed = new Typed('#element', {
-            strings: ['Web Developer...^1500', '&amp; a Python Programmer^1500'],
-            typeSpeed: 50,
-            loop: true
-        });
+      var typed = new Typed("#element", {
+        strings: ["Web Developer...^1500", "&amp; a Python Programmer^1500"],
+        typeSpeed: 50,
+        loop: true,
+      });
     </script>
-
-</body>
-
+  </body>
 </html>
